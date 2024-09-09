@@ -2,10 +2,13 @@
 #include <stdlib.h>
 
 struct node {
-    float coef;
+    int coef;
     int expo;
-    struct node* next;
+    struct Node* next;
 
 };
 
-struct node* head
+Node* createNode(int expo, int coef)
+{
+    
+}
